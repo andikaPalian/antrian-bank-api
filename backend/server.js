@@ -19,6 +19,8 @@ app.use('/api/user', userRouter);
 app.use('/api/service', serviceRouter);
 app.use('/api/branch', branchRouter);
 
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Server is running on http://localhost:${port}`);
+// });
+
+export default app;
